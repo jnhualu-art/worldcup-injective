@@ -1,0 +1,28 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go
+backend/vendor/
+backend/go.sum
+*.test
+*.out
+
+# Node
+x402-gateway/node_modules/
+x402-gateway/package-lock.json
+x402-gateway/.env
+
+# Env
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

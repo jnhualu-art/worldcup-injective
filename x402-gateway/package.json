@@ -1,0 +1,16 @@
+{
+  "name": "x402-gateway",
+  "version": "1.0.0",
+  "description": "x402 paywall gateway for premium World Cup predictions on Injective",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@injectivelabs/x402": "latest",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
