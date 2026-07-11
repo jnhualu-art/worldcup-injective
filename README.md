@@ -11,7 +11,8 @@ Fans can browse the live 2026 World Cup knockout bracket, get free heuristic pre
 | Technology | How it is used in this project | Link |
 |---|---|---|
 | **x402** | Pay-per-prediction gateway. Premium AI insights are gated behind a 0.01 USDC x402 payment, settled on Injective EVM with sub-second finality. | [x402](https://x402.org) |
-| **MCP Server / Agent Skills** | The Go backend exposes `list_worldcup_matches` and `predict_match` as MCP tools, so AI agents can consume World Cup data without custom API integration. | [mcp-go](https://github.com/mark3labs/mcp-go) |
+| **MCP Server** | The Go backend exposes `list_worldcup_matches` and `predict_match` as MCP tools, so AI agents can consume World Cup data without custom API integration. | [mcp-go](https://github.com/mark3labs/mcp-go) |
+| **Agent Skills** | The same MCP tools are packaged as reusable, composable **Agent Skills** so AI IDEs (Cursor / Claude) can invoke them directly — letting agents build World Cup prediction workflows without custom API glue. | [Agent Skills](https://docs.injective.network/) |
 | **CCTP** | Documented as the cross-chain USDC reward rail for future prediction-pool prize distribution. | [Injective CCTP tutorial](https://docs.injective.network/developers-defi/usdc-cctp-tutorial) |
 | **Injective EVM** | x402 payments settle on Injective EVM, which inherits the speed and low fees of the Injective chain. | [Injective EVM](https://docs.injective.network/) |
 
@@ -22,7 +23,7 @@ Fans can browse the live 2026 World Cup knockout bracket, get free heuristic pre
 - **Frontend:** open `frontend/index.html` directly in a browser, or serve it with any static server.
 - **Backend API:** `http://localhost:8080`
 - **x402 Gateway:** `http://localhost:3000`
-- **Demo video:** *(record and replace this link)*
+- **Demo (screenshots are sufficient):** a short demo video is optional for submission — screenshots of the app (matches list, free prediction, premium/x402 flow) are enough. *(replace with your screenshot/image link if you record one)*
 
 ## Project layout
 
@@ -140,4 +141,4 @@ See [`SUBMISSION_CHECKLIST.md`](SUBMISSION_CHECKLIST.md) for the full submission
 
 ## Author
 
-Built by **陆俊华** ([@ljnhu73965779](https://x.com/ljnhu73965779)) for The Injective Global Cup.
+Built by **陆俊华** ([@ljnhu73965779](https://x.com/ljnhu73965779)) · [Repository](https://github.com/jnhualu-art/worldcup-injective) for The Injective Global Cup.
